@@ -1,3 +1,3 @@
-# strawberry-field  
+# strawberry-field
 
 ![Demostration](cultivo.gif)

@@ -1,8 +1,0 @@
-prefix=/home/erandi/Documents/ros/strawberry_ws/devel
-
-Name: ibvs
-Description: Description of ibvs
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: roscpp std_msgs sensor_msgs image_transport cv_bridge visp_ros

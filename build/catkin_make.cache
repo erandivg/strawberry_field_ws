@@ -1,0 +1,2 @@
+ibvs:turtlebot3_simulations/turtlebot3_fake:turtlebot3_simulations/turtlebot3_gazebo:turtlebot3_simulations/turtlebot3_simulations:visp_ros
+-DCATKIN_DEVEL_PREFIX=/home/erandi/Documents/ros/strawberry_ws/devel -DCMAKE_INSTALL_PREFIX=/home/erandi/Documents/ros/strawberry_ws/install -G Unix Makefiles

@@ -8,4 +8,3 @@
 
 # modified environment variables
 export PWD='/home/erandi/Documents/ros/strawberry_ws/build'
-export PYTHONPATH="/home/erandi/Documents/ros/strawberry_ws/devel/lib/python3/dist-packages:$PYTHONPATH"

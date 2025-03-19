@@ -1,0 +1,15 @@
+material textur/madera
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture madera.png
+      }
+    }
+  }
+}
+

@@ -1,0 +1,15 @@
+material textur/insec
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture insecto.jpg
+      }
+    }
+  }
+}
+

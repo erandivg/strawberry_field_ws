@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="model" default="$(env TURTLEBOT3_MODEL)" doc="model type [turtlebot3_waffle1]"/>
+  <!-- vehicle pose -->
+  <arg name="x" default="-1.2"/>
+  <arg name="y" default="-0.05"/>
+  <arg name="z" default="0.025"/>
+  <arg name="R" default="0"/>
+  <arg name="P" default="0"/>
+  <arg name="Y" default="0"/>
+  
+    <!-- Launch Gazebo with the strawberry field world -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find turtlebot3_gazebo)/worlds/m_fresa.world"/>
+    
+    <!-- Adjust other Gazebo arguments as needed -->
+  </include>
+
+  <param name="robot_description" textfile="$(find turtlebot3_gazebo)/models/turtlebot3_waffle1/model.sdf" />
+
+  <!-- Nodo para spawnear el modelo en Gazebo -->
+  <node pkg="gazebo_ros" type="spawn_model" name="spawn_model" args="-sdf -model turtlebot3_$(arg model) -x $(arg x) -y $(arg y) -z $(arg z) -R $(arg R) -P $(arg P) -Y $(arg Y) -param robot_description" />
+  <node pkg="ibvs" type="homography_vision" name="homography_vision" output="screen" />
+  <node pkg="ibvs" type="homography_control" name="homography_control" output="screen" />
+
+
+
+</launch>

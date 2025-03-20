@@ -151,7 +151,7 @@ int main(int argc, char** argv) {
 
     // Leer todas las imágenes secuenciales del directorio de referencia
     std::vector<cv::Mat> desiredImages;
-    std::string REF_IMAGE_DIR = "/home/erandi/Documents/ros/strawberry_ws/src/ibvs/image_reference/";
+    std::string REF_IMAGE_DIR = "/ros/strawberry_ws/src/ibvs/image_reference/";
     desiredImages = readSequentialImages(REF_IMAGE_DIR);
 
     if (desiredImages.empty()) {

@@ -36,15 +36,49 @@ Additionally, install the ViSP ROS package:
 
 - [ViSP ROS GitHub Repository](https://github.com/lagadic/visp_ros)
 
-## **Run the Simulation**
+### Setup Instructions  
+
+1. **Download the source code** and place it inside a ROS workspace.  
+2. **Compile the workspace** by running:  
+
+    ```bash
+    catkin_make
+    ```
+
+3. **Modify the image reference path:**  
+   - Open `homography_vision.cpp`.  
+   - Change the path on **line 154** to the full directory where the `image_reference` folder is located.  
+
+4. **Run the program** with the following commands:  
+
+    ```bash
+    source devel/setup.bash
+    export TURTLEBOT3_MODEL=turtlebot3_waffle1
+    roslaunch turtlebot3_gazebo turtlebot3_fresa.launch
+    ```  
+
+### (Optional) Visualization  
+
+If you want to visualize the point correspondences and the desired image transformation:  
+
+- Open a new terminal in the same workspace directory.  
+- Run the following command:  
+
+    ```bash
+    rqt_image_view
+    ```  
+
+- Look for the topic `/camera/rgb/vision_image_matches` in the list.  
 
 
-
-This program was developed and tested in **ROS 1 Noetic**. 🚀
+**Note:** The models used for the strawberry field environment were added to  
+`turtlebot3_simulations/turtlebot3_gazebo/models`.
 
 <p align="center">
   <img src="cultivo.gif" alt="Strawberry" />
 </p>
+
+This program was developed and tested in **ROS 1 Noetic**. 🚀
 
 ---
 

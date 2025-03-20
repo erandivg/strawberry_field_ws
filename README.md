@@ -96,7 +96,10 @@ This program was developed and tested in **ROS 1 Noetic**. 🚀
 
 ---
 
-## References
+## References  
 
-[1] [Visual servo control, Part I: Basic approaches](https://inria.hal.science/inria-00350283v1/document)
+[1] Chaumette, F., & Hutchinson, S. (2006). **Visual Servo Control, Part I: Basic Approaches**. *IEEE Robotics & Automation Magazine*, 13(4), 82–90. [Link](https://inria.hal.science/inria-00350283v1/document)  
+
+[2] **Implementación De Control Visual Para Planificación De Trayectorias En Un Cultivo De Fresas Virtual**. *Jóvenes en la Ciencia*. Universidad de Guanajuato. [Link](https://www.jovenesenlaciencia.ugto.mx/index.php/jovenesenlaciencia/article/view/4691)  
+
 

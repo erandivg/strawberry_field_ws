@@ -1,0 +1,15 @@
+material textur/sisrie
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture sis_rie.jpg
+      }
+    }
+  }
+}
+

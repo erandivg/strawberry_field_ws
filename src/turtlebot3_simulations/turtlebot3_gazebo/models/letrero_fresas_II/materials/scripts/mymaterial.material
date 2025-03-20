@@ -1,0 +1,15 @@
+material textur/difres
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture fresas.jpg
+      }
+    }
+  }
+}
+

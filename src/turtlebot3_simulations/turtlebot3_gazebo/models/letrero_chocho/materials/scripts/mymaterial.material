@@ -1,0 +1,15 @@
+material textur/cho
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture chocho.jpg
+      }
+    }
+  }
+}
+

@@ -36,7 +36,7 @@ Additionally, install the ViSP ROS package:
 
 - [ViSP ROS GitHub Repository](https://github.com/lagadic/visp_ros)
 
-## **Setup** 
+## **Run the Simulation**
 
 
 

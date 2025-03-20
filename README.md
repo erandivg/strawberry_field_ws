@@ -47,7 +47,7 @@ Additionally, install the ViSP ROS package:
 
 3. **Modify the image reference path:**  
    - Open `homography_vision.cpp`.  
-   - Change the path on **line 154** to the full directory where the `image_reference` folder is located.  
+   - Change the path on **line 154** to the full path where the `image_reference` folder is located.  
 
 4. **Run the program** with the following commands:  
 

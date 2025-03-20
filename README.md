@@ -50,11 +50,19 @@ This program was developed and tested in **ROS 1 Noetic**. 🚀
 
 ## Contributors  
 
+- [@erandivg](https://github.com/erandivg)  
+- [@gfloresc](https://github.com/gfloresc)  
+- [@NoePity2](https://github.com/NoePity2)
+
+<p align="center">
+  <a href="https://github.com/erandivg/strawberry_field_ws/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=erandivg/strawberry_field_ws" />
+  </a>
+</p>
+
 ---
-
-
 
 ## References
 
-[1] [https://inria.hal.science/inria-00350283v1/document](https://inria.hal.science/inria-00350283v1/document)
+[1] [Visual servo control, Part I: Basic approaches](https://inria.hal.science/inria-00350283v1/document)
 

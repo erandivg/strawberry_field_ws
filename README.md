@@ -102,4 +102,5 @@ This program was developed and tested in **ROS 1 Noetic**. 🚀
 
 [2] **Implementación De Control Visual Para Planificación De Trayectorias En Un Cultivo De Fresas Virtual**. *Jóvenes en la Ciencia*. Universidad de Guanajuato. [Link](https://www.jovenesenlaciencia.ugto.mx/index.php/jovenesenlaciencia/article/view/4691)  
 
+[3] Visual Control Based Trajectory Design for a Mobile Robot in an Agricultural Environment. Master’s Thesis. Centro de Investigaciones en Óptica, A.C. (CIO), 2025. [Link](https://cio.repositorioinstitucional.mx/jspui/handle/1002/1357)  
 
